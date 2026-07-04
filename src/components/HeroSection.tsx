@@ -17,11 +17,11 @@ export default function HeroSection() {
       >
         <h1 className="text-hero text-white mb-4">HELIOS</h1>
 
-        <p className="text-subhead text-white/70 mb-8 max-w-2xl text-balance">
+        <p className="text-subhead text-white/90 mb-8 max-w-2xl text-balance">
           Designing the operator console for a fusion reactor.
         </p>
 
-        <p className="text-body max-w-readable mx-auto mb-12">
+        <p className="text-body text-white/70 max-w-readable mx-auto mb-12">
           A 9-month engagement helping a stealth-stage fusion startup design the
           control interface their plasma engineers trust under load.
         </p>

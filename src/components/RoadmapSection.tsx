@@ -46,14 +46,20 @@ export default function RoadmapSection() {
       className="relative min-h-screen flex flex-col items-center justify-center px-6"
     >
       {/* Center title */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
+      <motion.div
+        className="absolute inset-0 flex items-center justify-center pointer-events-none z-10"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-10%" }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+      >
         <div className="text-center">
           <p className="text-eyebrow text-white/40 mb-2">ROADMAP</p>
-          <h2 className="text-headline text-white/80 max-w-md mx-auto">
+          <h2 className="text-headline text-white/90 max-w-md mx-auto">
             The HELIOS case study, in five steps.
           </h2>
         </div>
-      </div>
+      </motion.div>
 
       {/* Chapter nodes positioned around */}
       {chapters.map((chapter, i) => (
