@@ -54,7 +54,7 @@ export default function RoadmapSection() {
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="text-center">
-          <p className="text-eyebrow text-white/40 mb-2">ROADMAP</p>
+          <p className="text-eyebrow text-white/60 mb-2">ROADMAP</p>
           <h2 className="text-headline text-white/90 max-w-md mx-auto">
             The HELIOS case study, in five steps.
           </h2>
@@ -75,7 +75,7 @@ export default function RoadmapSection() {
           <span className="block text-xs tracking-[0.2em] text-white/80 group-hover:text-[#8CFF7A] transition-colors duration-300 mb-1">
             {chapter.label}
           </span>
-          <span className="block text-[10px] tracking-wider text-white/20 group-hover:text-white/40 transition-colors duration-300">
+          <span className="block text-[10px] tracking-wider text-white/40 group-hover:text-white/60 transition-colors duration-300">
             {chapter.description}
           </span>
         </motion.a>

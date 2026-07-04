@@ -28,7 +28,7 @@ export default function HeroSection() {
 
         <motion.a
           href="#roadmap"
-          className="inline-flex items-center gap-2 px-8 py-3 border border-white/20 rounded-full text-sm tracking-wider uppercase text-white/80 hover:bg-white/5 hover:border-white/40 transition-all duration-300"
+          className="inline-flex items-center gap-2 px-8 py-3 border border-white/40 rounded-full text-sm tracking-wider uppercase text-white/80 hover:bg-white/10 hover:border-white/60 transition-all duration-300"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
         >
@@ -43,7 +43,7 @@ export default function HeroSection() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 0.8 }}
       >
-        <span className="scroll-indicator text-tiny text-white/30 tracking-widest uppercase">
+        <span className="scroll-indicator text-tiny text-white/50 tracking-widest uppercase">
           SCROLL TO ENTER
         </span>
         <div className="scroll-indicator w-[1px] h-8 bg-gradient-to-b from-white/20 to-transparent" />

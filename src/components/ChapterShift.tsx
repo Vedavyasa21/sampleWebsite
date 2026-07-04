@@ -17,7 +17,7 @@ export default function ChapterShift() {
       >
         <div className="flex items-center gap-4 mb-6">
           <span className="text-[#8CFF7A] text-sm font-mono">03</span>
-          <span className="text-eyebrow text-white/40">SHIFT</span>
+          <span className="text-eyebrow text-white/60">SHIFT</span>
         </div>
 
         <h2 className="text-headline text-white mb-6">

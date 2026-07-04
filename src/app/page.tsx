@@ -46,7 +46,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="relative z-10 py-12 text-center">
-          <p className="text-tiny text-white/15 tracking-widest uppercase">
+          <p className="text-tiny text-white/40 tracking-widest uppercase">
             HELIOS — 2024
           </p>
         </footer>

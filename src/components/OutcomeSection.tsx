@@ -31,7 +31,7 @@ export default function OutcomeSection() {
         viewport={{ once: true, margin: "-15%" }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
-        <span className="text-eyebrow text-white/40 mb-6 block">
+        <span className="text-eyebrow text-white/60 mb-6 block">
           04 — OUTCOME
         </span>
 
@@ -52,12 +52,12 @@ export default function OutcomeSection() {
               <span className="stat-number">
                 {stat.value}
                 {stat.unit && (
-                  <span className="block text-2xl md:text-3xl font-light text-white/60 mt-1">
+                  <span className="block text-2xl md:text-3xl font-light text-white/80 mt-1">
                     {stat.unit}
                   </span>
                 )}
               </span>
-              <span className="text-sm text-white/40 tracking-wider mt-3 uppercase">
+              <span className="text-sm text-white/60 tracking-wider mt-3 uppercase">
                 {stat.caption}
               </span>
             </motion.div>

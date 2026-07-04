@@ -17,7 +17,7 @@ export default function ChapterBuild() {
       >
         <div className="flex items-center gap-4 mb-6">
           <span className="text-[#8CFF7A] text-sm font-mono">02</span>
-          <span className="text-eyebrow text-white/40">BUILD</span>
+          <span className="text-eyebrow text-white/60">BUILD</span>
         </div>
 
         <h2 className="text-headline text-white mb-6">

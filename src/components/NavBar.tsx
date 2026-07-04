@@ -15,8 +15,8 @@ export default function NavBar({ scrolled }: NavBarProps) {
         {/* Logo — stacked squares icon */}
         <a href="#" className="flex items-center gap-1 group">
           <div className="flex flex-col gap-[2px]">
-            <div className="w-4 h-4 border border-white/60 group-hover:border-white transition-colors" />
-            <div className="w-4 h-4 border border-white/30 group-hover:border-white/60 transition-colors -mt-[3px] ml-[3px]" />
+            <div className="w-4 h-4 border border-white/80 group-hover:border-white transition-colors" />
+            <div className="w-4 h-4 border border-white/50 group-hover:border-white/80 transition-colors -mt-[3px] ml-[3px]" />
           </div>
         </a>
 
@@ -24,7 +24,7 @@ export default function NavBar({ scrolled }: NavBarProps) {
         <div className="flex items-center gap-6">
           <a
             href="#"
-            className="inline-flex text-[10px] sm:text-xs tracking-widest uppercase text-white/50 hover:text-white/90 transition-colors"
+            className="inline-flex text-[10px] sm:text-xs tracking-widest uppercase text-white/70 hover:text-white/90 transition-colors"
           >
             VIEW LIVE DEMO →
           </a>
